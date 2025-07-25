@@ -21,8 +21,27 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.bold-22 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111111;
+}
+
+.medium {
+  font-size: 22px;
+  font-weight: 600;
+  color: #111111;
+}
+
 .orange {
   color: rgba(233, 90, 8, 1);
+}
+
+.btn-primary {
+  background-color: rgba(233, 90, 8, 1);
+  color: white;
+  padding: 20px 80px;
+  justify-items: center;
 }
 
 /* navbar */
@@ -30,15 +49,52 @@
   color: #252432;
 }
 
+/* card */
+.item-name {
+  padding: 25px 0;
+}
+
+.item-price {
+  padding-bottom: 25px;
+}
+
 /* banner */
 @media screen and (max-width: 576px) {
+  .nav-container {
+    margin: 0 16px;
+  }
+
   .banner {
     flex-direction: column-reverse;
   }
 
+  .banner-item {
+    margin: 0 16px;
+  }
+
   .banner-img {
-    max-width: 395px;
+    /* max-width: 395px; */
     width: 100%;
     height: auto;
+    padding: 28px 0;
+  }
+
+  .banner-title {
+    padding-bottom: 13px;
+  }
+
+  /* main */
+  .main {
+    margin-top: 61px;
+    margin: 0 16px;
+  }
+
+  /* card */
+  .btn-primary {
+    padding: 15px 30px;
+  }
+
+  .card-coontainer {
+    margin-top: 61px;
   }
 }
