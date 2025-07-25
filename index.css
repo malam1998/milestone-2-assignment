@@ -58,8 +58,46 @@
   padding-bottom: 25px;
 }
 
+/* love */
+
+.flower-lover-img {
+  position: relative;
+  display: inline-block;
+}
+
+.flower-store {
+  display: block;
+  width: 100%; /* or fixed width like 400px */
+}
+
+.trusted-badge {
+  position: absolute;
+  top: -25%; /* push it slightly above */
+  left: 65%; /* push it outside the right edge */
+  width: 286px;
+  z-index: 10;
+}
+
+.lover-desc {
+  padding: 40px 0;
+  max-width: 540px;
+  align-items: center;
+}
+
+.unorder-list {
+  padding: 20px 0;
+}
+
+.lover-list {
+  padding-bottom: 20px;
+}
+
 /* banner */
 @media screen and (max-width: 576px) {
+  body {
+    justify-content: center;
+    margin: 0 auto;
+  }
   .nav-container {
     margin: 0 16px;
   }
@@ -96,5 +134,10 @@
 
   .card-coontainer {
     margin-top: 61px;
+  }
+
+  /* lver */
+  .lover-desc {
+    padding: 0 16px;
   }
 }
